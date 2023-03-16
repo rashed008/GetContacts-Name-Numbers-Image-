@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE19334329C1C676007CBF39 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE19334129C1C676007CBF39 /* TableViewCell.swift */; };
+		CE19334429C1C676007CBF39 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE19334229C1C676007CBF39 /* TableViewCell.xib */; };
 		CEEBCC7F29C089CF00231FE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBCC7E29C089CF00231FE8 /* AppDelegate.swift */; };
 		CEEBCC8129C089CF00231FE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBCC8029C089CF00231FE8 /* SceneDelegate.swift */; };
 		CEEBCC8329C089CF00231FE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBCC8229C089CF00231FE8 /* ViewController.swift */; };
 		CEEBCC8629C089CF00231FE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEBCC8429C089CF00231FE8 /* Main.storyboard */; };
 		CEEBCC8829C089D000231FE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEEBCC8729C089D000231FE8 /* Assets.xcassets */; };
 		CEEBCC8B29C089D000231FE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEBCC8929C089D000231FE8 /* LaunchScreen.storyboard */; };
+		CEEF30EC29C2DA0E001E79BC /* ContactsEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEF30EB29C2DA0E001E79BC /* ContactsEnum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE19334129C1C676007CBF39 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		CE19334229C1C676007CBF39 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		CEEBCC7B29C089CF00231FE8 /* GetContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEEBCC7E29C089CF00231FE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEEBCC8029C089CF00231FE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		CEEBCC8729C089D000231FE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEEBCC8A29C089D000231FE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEEBCC8C29C089D000231FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEEF30EB29C2DA0E001E79BC /* ContactsEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsEnum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				CEEBCC8729C089D000231FE8 /* Assets.xcassets */,
 				CEEBCC8929C089D000231FE8 /* LaunchScreen.storyboard */,
 				CEEBCC8C29C089D000231FE8 /* Info.plist */,
+				CE19334129C1C676007CBF39 /* TableViewCell.swift */,
+				CE19334229C1C676007CBF39 /* TableViewCell.xib */,
+				CEEF30EB29C2DA0E001E79BC /* ContactsEnum.swift */,
 			);
 			path = GetContacts;
 			sourceTree = "<group>";
@@ -126,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEEBCC8B29C089D000231FE8 /* LaunchScreen.storyboard in Resources */,
+				CE19334429C1C676007CBF39 /* TableViewCell.xib in Resources */,
 				CEEBCC8829C089D000231FE8 /* Assets.xcassets in Resources */,
 				CEEBCC8629C089CF00231FE8 /* Main.storyboard in Resources */,
 			);
@@ -139,7 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEEBCC8329C089CF00231FE8 /* ViewController.swift in Sources */,
+				CE19334329C1C676007CBF39 /* TableViewCell.swift in Sources */,
 				CEEBCC7F29C089CF00231FE8 /* AppDelegate.swift in Sources */,
+				CEEF30EC29C2DA0E001E79BC /* ContactsEnum.swift in Sources */,
 				CEEBCC8129C089CF00231FE8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +228,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +282,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
